@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="hello.css" />
+        <script src="jquery.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="hello">Hello world!</div>
+        <div id="other"></div>
+        <script>
+            
+            $(document).ready(function(){
+                
+                $('.hello').click(function(){
+                    $('#other').html(':D');
+                });                
+            });
+            
+        </script>
+    </body>
+</html>
